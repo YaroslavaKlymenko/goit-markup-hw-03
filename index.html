@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
@@ -14,7 +21,7 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header container">
       <a class="header-logo" href="#"
         >Web<span class="header-logopart">Studio</span></a
       >
@@ -42,21 +49,24 @@
         <a class="header-contacts-item" href="mailto:info@devstufio.com">
           info@devstufio.com</a
         >
-        <a class="header-contacts-item" href="tel:+110001111111">
+        <a
+          class="header-contacts-item header-contacts-item-last-child"
+          href="tel:+110001111111"
+        >
           +11 (000) 111-11-11
         </a>
       </div>
     </header>
     <main>
-      <section class="solutions section">
-        <div>
+      <section class="solutions section container">
+        <div class="container">
           <h1 class="section-caption">Effective Solutions for Your Business</h1>
-        </div>
-        <div class="section-button-location">
+          <!-- <div class="section-button-location"> -->
           <button type="button" class="section-button">Order Service</button>
+          <!-- </div> -->
         </div>
       </section>
-      <section class="description section">
+      <section class="description section container">
         <ul class="description-paragraphs">
           <li class="description-texts">
             <h3 class="description-header">Strategy</h3>
@@ -88,7 +98,7 @@
           </li>
         </ul>
       </section>
-      <section class="examples section">
+      <section class="examples section container">
         <div>
           <h2 class="example-header">What Are We Doing</h2>
           <ul class="examples-photos">
@@ -119,7 +129,7 @@
           </ul>
         </div>
       </section>
-      <section class="team section">
+      <section class="team section container">
         <h2 class="team-caption">Our Team</h2>
         <ul class="team-members">
           <li class="team-member">
@@ -165,7 +175,7 @@
         </ul>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
       <div class="footer-text">
         <a class="footer-logo" href="#"
           >Web<span class="footer-logo-part">Studio</span>
