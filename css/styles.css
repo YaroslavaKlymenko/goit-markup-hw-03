@@ -110,6 +110,7 @@ body {
 }
 
 .section {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -124,7 +125,8 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 96px 0 72px;
+  padding: 0;
+  margin-bottom: 72px;
 }
 
 .button-items {
