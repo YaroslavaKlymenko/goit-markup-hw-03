@@ -59,6 +59,8 @@ body {
   padding-left: 0;
   display: flex;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header-navigation-item {
@@ -87,7 +89,7 @@ body {
 
 .header-contacts {
   text-align: right;
-  margin-left: 331px;
+  margin-left: auto;
 }
 
 .header-contacts-item {
@@ -152,14 +154,13 @@ body {
 
 .section-button:hover {
   background: #f4f4fd;
-
-  border: 1px solid #e7e9fc;
   border-radius: 4px;
   color: #4d5ae5;
   cursor: pointer;
 }
 
 .description-paragraphs {
+  padding: 0;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -168,6 +169,10 @@ body {
 .description-texts {
   list-style-type: none;
   margin-right: 24px;
+}
+
+.description-texts:last-child {
+  margin-right: 0;
 }
 
 .description-header {
@@ -191,6 +196,7 @@ body {
 }
 
 .example-header {
+  margin: 0 0 72px;
   font-weight: 600;
   font-size: 36px;
   line-height: 111%;
@@ -205,8 +211,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*padding-left: 156px;*/
-  margin-top: 72px;
+  padding: 0;
+  margin: 0;
 }
 
 .examples-items {
@@ -215,13 +221,21 @@ body {
   margin-right: 24px;
 }
 
+.examles-images {
+  display: block;
+}
+
+.examples-items:last-child {
+  margin-right: 0;
+}
+
 .team {
   background: #f4f4fd;
 }
 
 .team-caption {
   height: 40px;
-  margin: 0 auto;
+  margin: 0 0 72px;
 
   font-weight: 600;
   font-size: 36px;
@@ -233,8 +247,8 @@ body {
 }
 
 .team-members {
-  margin-top: 72px;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -252,6 +266,10 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-member-image {
+  display: block;
+}
+
 .team-member-last-child {
   margin-right: 0;
 }
@@ -259,12 +277,20 @@ body {
 .team-member-name {
   font-weight: 600;
   font-size: 20px;
+  margin: 0 0 8px;
 
   color: var(--navyblue);
 }
 
+.team-member-description {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  /* text-align: center; */
+}
+
 .team-member-job {
   color: var(--slate);
+  margin: 0;
 }
 
 .footer {
